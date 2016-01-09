@@ -9,7 +9,8 @@ features:
   * [CoffeeScript](http://coffeescript.org/)
   * [Bootstrap 4](http://v4-alpha.getbootstrap.com/)
   * [FontAwesome](https://fortawesome.github.io/Font-Awesome/)
-  * [jQuery](https://jquery.com/)
+  * [jQuery 2](https://jquery.com/)
+  * [jQuery UI]()
 
 ## Usage
   * Install [RVM](https://rvm.io/) following the [instructions](https://rvm.io/rvm/install).
@@ -36,6 +37,10 @@ features:
 ```
 # rails new . -m template.rb
 ```
+**NOTE** Installing the
+[capybara-webkit](https://github.com/thoughtbot/capybara-webkit) gem requires that you have
+the latest Qt installed and the `qmake` utility configured. You can
+follow these [instructions](https://github.com/thoughtbot/capybara-webkit/wiki/Installing-Qt-and-compiling-capybara-webkit) if the installation fails.
 
 ## Modules included and pre-configured in the application template
 
@@ -44,19 +49,24 @@ features:
   * [cancanca](https://github.com/CanCanCommunity/cancancan)
   * [devise](https://github.com/plataformatec/devise)
   * [font-awesome-rails](https://github.com/bokmann/font-awesome-rails)
-  * [jquery-rails](https://github.com/rails/jquery-rails)
   * [jbuilder](https://github.com/rails/jbuilder)
+  * [jquery-rails](https://github.com/rails/jquery-rails)
+  * [jquery-ui-rails](https://github.com/joliss/jquery-ui-rails)
   * [rails-assets-tether](https://rails-assets.org/)
   * [simple_form](https://github.com/plataformatec/simple_form)
   * [slim](https://github.com/slim-template/slim)
   * [slim-rails](https://github.com/slim-template/slim-rails)
+  * [thin](https://github.com/macournoyer/thin)
+
+### Development environment
+  * [letter_opener](https://github.com/ryanb/letter_opener)
+  * [quiet_assets](https://github.com/evrone/quiet_assets)
 
 ### Development and test environments
   * [byebug](https://github.com/deivid-rodriguez/byebug)
   * [capybara](https://github.com/jnicklas/capybara)
   * [factory_girl_rails](https://github.com/thoughtbot/factory_girl_rails)
   * [faker](https://github.com/stympy/faker)
-  * [parallel_tests](https://github.com/grosser/parallel_tests)
   * [rspec-rails](https://github.com/rspec/rspec-rails)
 
 ### Test environment
