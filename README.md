@@ -12,16 +12,29 @@ features:
   * [jQuery](https://jquery.com/)
 
 ## Usage
-  * Install [RVM](https://rvm.io/)
-  * Create a `.ruby-version` [file](https://rvm.io/workflow/projects#project-file-ruby-version) with the ruby version you want to use
-  * *Optional* create a `.ruby-gemset` [file](https://rvm.io/workflow/projects#project-file-ruby-version) to handle the project specific gems
+  * Install [RVM](https://rvm.io/) following the [instructions](https://rvm.io/rvm/install).
+```
+# \curl -sSL https://get.rvm.io | bash -s stable --ruby
+```
+  * Create the project directory for the new Rails project.
+```
+# mkdir myapp && cd myapp
+```
+  * Create a `.ruby-version` and `.ruby-gemset` [files](https://rvm.io/workflow/projects#project-file-ruby-version)
+```
+# rvm --ruby-version use 2.3.0@myapp
+```
   * Install rails
 ```
 # gem install rails
 ```
+  * Clone the repository
+```
+# git clone https://github.com/stanchino/rails-template.git
+```
   * Setup the new Rails project
 ```
-# rails new . -m app_template.rb
+# rails new . -m template.rb
 ```
 
 ## Modules included and pre-configured in the application template

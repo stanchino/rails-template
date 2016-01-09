@@ -2,7 +2,6 @@ remove_file 'README.doc'
 
 add_source 'https://rails-assets.org'
 
-gem 'aws-sdk'
 gem 'bootstrap'
 gem 'cancancan'
 gem 'coffee-rails'
@@ -31,7 +30,6 @@ gem_group :test do
   gem 'capybara-email'
   gem 'capybara-screenshot'
   gem 'capybara-webkit'
-  gem 'codeclimate-test-reporter', require: false
   gem 'shoulda-matchers'
   gem 'simplecov', require: false
 end
