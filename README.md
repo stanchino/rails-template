@@ -22,15 +22,15 @@ features:
 ```
   * Create a `.ruby-version` and `.ruby-gemset` [files](https://rvm.io/workflow/projects#project-file-ruby-version)
 ```
-# rvm --ruby-version use 2.3.0@myapp
+# rvm --ruby-version use 2.3.0@myapp --create
 ```
   * Install rails
 ```
 # gem install rails
 ```
-  * Clone the repository
+  * Get the template file
 ```
-# git clone https://github.com/stanchino/rails-template.git
+# \curl -sSl https://raw.githubusercontent.com/stanchino/rails-template/master/template.rb -o template.rb
 ```
   * Setup the new Rails project
 ```
