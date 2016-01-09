@@ -11,8 +11,22 @@ features:
  * [FontAwesome](https://fortawesome.github.io/Font-Awesome/)
  * [jQuery](https://jquery.com/)
 
+## Usage
+ 1. Prerequisites: Install [RVM](https://rvm.io/)
+ 2. Create a `.ruby-version` [file](https://rvm.io/workflow/projects#project-file-ruby-version) with the ruby version you want to use
+ 3. Optionally create a `.ruby-gemset` [file](https://rvm.io/workflow/projects#project-file-ruby-version) to handle the project specific gems
+ 4. Install rails
+```
+# gem install rails
+```
+ 5. Setup the new Rails project
+```
+# rails new . -m app_template.rb
+```
+
 ## Modules included and pre-configured in the application template
- General modules
+
+### General modules
  * [bootstrap](https://github.com/twbs/bootstrap-rubygem)
  * [cancanca](https://github.com/CanCanCommunity/cancancan)
  * [devise](https://github.com/plataformatec/devise)
@@ -24,7 +38,7 @@ features:
  * [slim](https://github.com/slim-template/slim)
  * [slim-rails](https://github.com/slim-template/slim-rails)
 
- Development and test environments
+### Development and test environments
  * [byebug](https://github.com/deivid-rodriguez/byebug)
  * [capybara](https://github.com/jnicklas/capybara)
  * [factory_girl_rails](https://github.com/thoughtbot/factory_girl_rails)
@@ -32,7 +46,7 @@ features:
  * [parallel_tests](https://github.com/grosser/parallel_tests)
  * [rspec-rails](https://github.com/rspec/rspec-rails)
 
- Test environment
+### Test environment
  * [capybara-email](https://github.com/dockyard/capybara-email)
  * [capybara-screenshot](https://github.com/mattheworiordan/capybara-screenshot)
  * [capybara-webkit](https://github.com/thoughtbot/capybara-webkit)
